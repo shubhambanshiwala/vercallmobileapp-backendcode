@@ -73,8 +73,8 @@ func generateEmailVerificationLinkForServiceProvider(ctx context.Context, client
 }
 
 func send(body string, To string) {
-	from := "banshiwala.shubham@gmail.com"
-	pass := "Chinto@1994"
+	from := "username"
+	pass := "password"
 	to := To
 
 	msg := "From: " + from + "\n" +
